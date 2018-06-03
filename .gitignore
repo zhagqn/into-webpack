@@ -1,0 +1,19 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+webpack4/dist
+
+# temp.js
+temp.js
+
+# tinypng-key 
+tinypng-key.txt
+
+.DS_Store

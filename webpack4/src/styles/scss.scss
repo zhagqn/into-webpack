@@ -1,0 +1,21 @@
+* {
+  font-size: 14px;
+}
+
+.bgimg {
+  width: 100px;
+  height: 100px;
+  background: url(../assets/img/Ryoko-hirosue_06.jpg);
+  transform: translate(1, 1)
+}
+
+@for $i from 1 to 5 {
+  .img-#{$i} {
+    @if $i < 10 {
+      background: url(../assets/img/Ryoko-hirosue_0#{$i}.jpg)
+    } @else {
+      background: url(../assets/img/Ryoko-hirosue_#{$i}.jpg)
+    }
+  }
+}
+
