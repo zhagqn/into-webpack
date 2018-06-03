@@ -1,0 +1,1 @@
+>tinypng插件需要添加相应的dev-key
